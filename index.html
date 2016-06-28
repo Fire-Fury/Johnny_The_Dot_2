@@ -9,19 +9,19 @@
         Add all the js files needed for states
     -->
     
-    <script src = "libs/phaser.js"></script>
+    <script src = "libs/phaser.js"></script> 
     
-    <script src = "Boot.js"></script>
+    <script src = "js/Boot.js"></script>
     
-    <script src = "Preloader.js"></script> 
+    <script src = "js/Preloader.js"></script> 
     
-    <script src = "MainMenu.js"></script>
+    <script src = "js/MainMenu.js"></script>
     
     <!-- 
         Add all the js files needed for actual ingame states.
     -->
     
-    <script src = "levels/tutorial/Tutorial_1.js"></script> 
+    <script src = "levels/tutorial/Tutorial1.js"></script>
     
     <script type = "text/javascript">
         
@@ -35,6 +35,8 @@
         game.state.add('Boot', Game.Boot);
         game.state.add('Preloader', Game.Preloader);
         game.state.add('MainMenu', Game.MainMenu);
+            
+        game.state.add("Tutorial1", Game.Tutorial1);
         
         game.state.start('Boot');
         
