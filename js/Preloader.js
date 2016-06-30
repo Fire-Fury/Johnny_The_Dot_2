@@ -34,7 +34,11 @@ Game.Preloader.prototype = {
         
         this.load.image("player", "assets/Johnny.png");
         
-        this.load.image("healthBar", "assets/healthBar.png");
+        this.load.image("hotbar", "assets/Inventory.png");
+            //Items
+        this.load.image("Item_HealthPotion", "assets/items/HealthPotion.png");
+        
+        this.load.image("Item_SpeedPotion", "assets/items/SpeedPotion.png");
         
         //Fonts
         
@@ -43,6 +47,10 @@ Game.Preloader.prototype = {
         //Maps
         
         this.load.tilemap("tutorial1map", "maps/Tutorial1.json", null, Phaser.Tilemap.TILED_JSON);
+        
+        //SpriteSheets
+        
+        
         
         
         

@@ -75,6 +75,12 @@ Game.MainMenu.prototype = {
             down: this.input.keyboard.addKey(Phaser.Keyboard.DOWN),
             left: this.input.keyboard.addKey(Phaser.Keyboard.LEFT),
             right: this.input.keyboard.addKey(Phaser.Keyboard.RIGHT),
+            
+            one: this.input.keyboard.addKey(Phaser.Keyboard.ONE),
+            two: this.input.keyboard.addKey(Phaser.Keyboard.TWO),
+            three: this.input.keyboard.addKey(Phaser.Keyboard.THREE),
+            four: this.input.keyboard.addKey(Phaser.Keyboard.FOUR),
+            
             shift: this.input.keyboard.addKey(Phaser.Keyboard.SHIFT),
             enter: this.input.keyboard.addKey(Phaser.Keyboard.ENTER),
             debug: "Hey this is a debug attribute of controls",
